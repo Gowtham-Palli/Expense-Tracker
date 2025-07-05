@@ -16,6 +16,7 @@ A simple and intuitive web application for tracking your personal expenses. Easi
 
 <!-- Add screenshots here if available -->
 ![Landing Page](public/LandingPage.png)
+![Authentication Page](public/Auth.png)
 ![Budgets Page](public/Budgets.png)
 ![Create Budget](public/CreateBudget.png)
 ![Dashboard Page](public/Dashboard.png)

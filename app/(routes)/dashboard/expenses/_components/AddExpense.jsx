@@ -34,6 +34,7 @@ const AddExpense = ({budgetId, user, refreshData}) => {
                     onChange={(e) => setName(e.target.value)}
                     placeholder="e.g. Home Decor"
                     value={name}
+                    className={'text-white'}
                     />
             </div>
             <div className='mt-2'>
@@ -43,12 +44,13 @@ const AddExpense = ({budgetId, user, refreshData}) => {
                     onChange={(e) => setAmount(e.target.value)}
                     placeholder="e.g. 5000$"
                     value={amount}
+                    className={'text-white'}
                 />
             </div>
             <Button
                 disabled={!(name && amount)}
                 onClick={addNewExpense}
-                className={'w-full mt-5 text-black bg-white'}
+                className={'w-full mt-5 text-black bg-white cursor-pointer hover:text-gray-100'}
                 >
                 Add New Expense
             </Button>
